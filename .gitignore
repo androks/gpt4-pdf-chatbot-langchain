@@ -38,3 +38,9 @@ next-env.d.ts
 
 #Notion_db
 /Notion_DB
+/.idea
+/.idea/.gitignore
+/.idea/gpt4-pdf-chatbot-langchain.iml
+/.idea/misc.xml
+/.idea/modules.xml
+/.idea/vcs.xml

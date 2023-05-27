@@ -29,6 +29,9 @@ export const run = async () => {
 
     const docs = await textSplitter.splitDocuments(rawDocs);
     console.log('split docs', docs);
+    docs.forEach((doc) => {
+      doc.metadata.source = doc.metadata.pdf.info.Title;
+    });
 
     console.log('creating vector store...');
     /*create and store the embeddings in the vectorStore*/

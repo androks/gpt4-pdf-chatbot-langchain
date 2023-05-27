@@ -225,6 +225,10 @@
   opacity: 0.8;
 }
 
+.link { 
+  color: #3f4cbb; 
+}
+
 /* Mobile optimization */
 @media (max-width: 600px) {
   .main {
